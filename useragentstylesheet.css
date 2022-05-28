@@ -1,0 +1,140 @@
+/*
+Default styles for all elements
+*/
+
+.xillo-node {
+  font-size:14px;
+  font-family:serif;
+}
+
+.tag-p {
+  display:block;
+  margin-left:4px;
+  margin-right:4px;
+  margin-top:4px;
+  margin-bottom:4px;
+  font-size:14px;
+  padding:none;
+}
+
+
+.tag-h1 {
+  display:block;
+  margin-left:4px;
+  margin-right:4px;
+  margin-top:4px;
+  margin-bottom:4px;
+  font-size:68px;
+  padding:none;
+  font-weight:bold
+}
+
+.tag-h2 {
+  display:block;
+  margin-left:4px;
+  margin-right:4px;
+  margin-top:4px;
+  margin-bottom:4px;
+  font-size:57px;
+  padding:none;
+  font-weight:bold
+}
+
+.tag-h3 {
+  display:block;
+  margin-left:4px;
+  margin-right:4px;
+  margin-top:4px;
+  margin-bottom:4px;
+  font-size:41px;
+  padding:none;
+  font-weight:bold
+}
+.tag-h4 {
+  display:block;
+  margin-left:4px;
+  margin-right:4px;
+  margin-top:4px;
+  margin-bottom:4px;
+  font-size:35px;
+  padding:none;
+  font-weight:bold
+}
+
+.tag-h5 {
+  display:block;
+  margin-left:4px;
+  margin-right:4px;
+  margin-top:4px;
+  margin-bottom:4px;
+  font-size:21px;
+  padding:none;
+  font-weight:bold
+}
+
+.tag-h6 {
+  display:block;
+  margin-left:4px;
+  margin-right:4px;
+  margin-top:4px;
+  margin-bottom:4px;
+  font-size:9px;
+  padding:none;
+  font-weight:bold
+}
+
+.tag-pre {
+  display: block;
+  font-family: "Courier New", Courier, "Lucida Console", monospace;
+  font-size:13px
+}
+
+.tag-script {
+  display:block
+}
+.xillo-slider {
+  -webkit-appearance: none;
+  height: 5px;
+  width:140px;
+  border-radius: 5px;
+  background: #d3d3d3;
+  outline: none;
+  cursor:default;
+}
+
+.xillo-slider:active::-webkit-slider-thumb {
+cursor:grabbing !important;
+}
+
+.xillo-slider:focus::-webkit-slider-thumb {
+cursor:grabbing;
+}
+
+.xillo-slider:active::-moz-range-thumb {
+cursor:grabbing !important;
+}
+
+.xillo-slider:focus::-moz-range-thumb {
+cursor:grabbing;
+}
+
+
+
+.xillo-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 21px;
+  height: 21px;
+  border-radius: 50%;
+  background: blue;
+  cursor: grab;
+  
+}
+
+.xillo-slider::-moz-range-thumb {
+  width: 21px;
+  height: 21px;
+  border-radius: 50%;
+  background: #04AA6D;
+  cursor: grab;
+}
